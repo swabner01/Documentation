@@ -8,7 +8,7 @@ To ensure the integrity of the database and the stored data, froxlor includes th
 
 ## 2. Email & file templates
 
-You can customize the email templates sent to customers for various actions (like adding a new customer, new database, webspace/traffic notifications, etc.). For the **email-templates** you can even do that on a per-language level.
+You can customize the email templates sent to customers for various actions (like adding a new customer, new database, webspace/traffic notifications, etc.). For the **email-templates** you can even do that on a per-language level. The email templates are tied to the admin account assigned to the customer. This means that the admin who creates a new e-mail account must also have created the templates with his account so that they can be used.
 
 Additionally, there are a few replacer-variables available, depending on the chosen template that will be replaced accordingly in the final email/file.
 
